@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    background: url('hero.jpg') center no-repeat;
+    background-size: cover;
+}
+
+
+.card {
+    min-height: 60vh;
+    width: 60%;
+    display: flex;  
+    align-items: center;
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.925), rgba(255, 255, 255, 0.048));
+    padding: 30px;
+    justify-content: space-between;
+    /*border: 5px solid rgba(255, 255, 255, 0.507);*/
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    color: #212121;
+}
+
+
+.text-right {
+    padding: 30px;
+    max-width: 50%;
+}
+
+.text-left {
+    min-height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
